@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GridClick</string>
+    <string name="Title">Title</string>
+    <string name="Author">Author</string>
+    <array name="button_names">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </array>
+</resources>
