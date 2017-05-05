@@ -55,7 +55,13 @@ public class GridButtonAdapter extends BaseAdapter {
         } else {
             button = (Button) convertView;
         }
-        button.setText("Button " + numList[position]);
+        if (position == 0) {
+            button.setText("Books List");
+        } else if (position == 1) {
+            button.setText("About");
+        } else {
+            button.setText("Button " + numList[position]);
+        }
         return button;
     }
 }
